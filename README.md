@@ -7,15 +7,15 @@ mysql_agent 是采集器启动脚本，具体命令：
 # 必须修改的配置：  
 1）config.json  
 
-## 模拟数据模式开关  
+### 模拟数据模式开关  
 "isMock": true 模拟； false 正常  
-## 是否采用国密加密  
+### 是否采用国密加密  
 "isEncrypt": true 加密； false 未加密  
-## agentCycle 连接信息  
+### agentCycle 连接信息  
 "agentCycle" 采集周期  
-## MYSQL 连接信息  
+### MYSQL 连接信息  
 "mysql" iCop 的存储使用的 mysql 连接信息  
-## influxdb 连接信息    
+### influxdb 连接信息    
 "influxdb" iCop 存储使用的 influxdb 连接信息  
 
 # 非必须修改的配置：  
