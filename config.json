@@ -1,0 +1,30 @@
+{
+  "isMock": true,
+  "isEncrypt": false,
+  "agentCycle": 20,
+  "endpoint": [
+    {
+      "entity_id": 11,
+      "ipAddress": "192.168.3.52",
+      "port": 3306,
+      "username": "root",
+      "password": "123456",
+      "dbname": "test"
+    }
+
+  ],
+  "mysql": {
+    "username": "root",
+    "password": "123456",
+    "host": "192.168.3.52",
+    "port": 3306,
+    "dbname": "test"
+  },
+  "influxdb": {
+    "host": "192.168.3.53",
+    "port": 8086,
+    "username": "root",
+    "password": "123456",
+    "database": "test"
+  }
+}
